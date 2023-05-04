@@ -1,0 +1,112 @@
+@font-face {
+  font-family: "casanova scotia";
+  src: url("../Fonts/Casanova Scotia.otf");
+}
+
+body {
+  min-width: 730px;
+}
+
+#header {
+  position: fixed;
+  top: -0em;
+  left: 0px;
+  right: 0px;
+  z-index: 10;
+}
+
+#navMenu {
+  background-color: #fff;
+  padding: 0px;
+  top: 4.3em;
+  right: 0;
+  box-shadow: 0 2px 7px 1px #777;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+#logoUniv {
+  float: right;
+  margin-right: -41px;
+  width: 33px;
+  border: none;
+}
+
+#navcol-1 {
+  width: 100%;
+  min-width: 787px;
+}
+
+#logoUniv {
+  float: right;
+  margin-top: -2px;
+  margin-bottom: -5px;
+  margin-right: -9px;
+  width: 31px;
+}
+
+#univ {
+  float: right;
+  margin-right: 0px;
+  font-weight: bold;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+  text-shadow: 0 1px 0 #fff;
+}
+
+.nav-item.dropdown:hover > {
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown a:hover {
+  color: white;
+  background-color: rgb(102,153,255);
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.navbar-expand-md .navbar-nav .dropdown-menu {
+  margin-top: -1px;
+  padding-top: 0px;
+  border-radius: 0px;
+  padding-bottom: 0px;
+  border-top: none;
+}
+
+#facMed {
+  font-family: "casanova scotia";
+  font-size: 3vw;
+  position: fixed;
+  /*top: -0.67em;*/
+  left: 0px;
+  right: 0;
+  padding: 0px;
+  padding-top: 11px;
+  padding-bottom: -2px;
+  color: #fff;
+  z-index: 12;
+  font-weight: bold;
+  
+  min-height: 73px;
+  width: 100%;
+}
+
+#adminNav a:hover {
+  color: black;
+  background-color: rgb(102,153,255);
+}
+
+#timetable{
+	min-width:1110px;
+}
+#calendarTout{
+	min-width:1110px;
+}

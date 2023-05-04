@@ -1,0 +1,21 @@
+.modal-footer {
+  background-color: #27284f;
+  height: 50px;
+}
+
+#logoFac {
+  width: 32px;
+  height: 32px;
+  float: left;
+  clip-path: circle();
+}
+
+#titreFac {
+  margin: -2px 1px 1px 1px;
+  color: #CED0D0;
+}
+
+#modalAddActu div {
+  margin-top: 11px;
+}
+

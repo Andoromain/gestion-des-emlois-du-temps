@@ -1,0 +1,41 @@
+<div class="col-md-3 sidebar">
+                <div>
+                    <h3 class="text-center">Mots du Doyen</h3>
+					
+					
+					
+					<!-- debut mot du doyen -->
+					
+                    <div class="profile-card">
+						<?php
+							require("modele.php");
+							$requete=motduDoyen();
+							while($row=$requete->fetch()){	
+						?>
+                        <div class="profile-back"></div><img class="rounded-circle profile-pic" 
+						<?php  if(!empty($row["image"])){
+								echo 'src="imagesPub/'.$row["image"].'"';
+						}else if(!empty($row["image1"])){
+								echo 'src="imagesPub/'.$row["image1"].'"';
+						}else if(!empty($row["image2"])){
+								echo 'src="imagesPub/'.$row["image2"].'"';
+						}else if(!empty($row["image3"])){
+								echo 'src="imagesPub/'.$row["image3"].'"';
+						}
+						
+						?> >
+                        <h3 class="profile-name"><?php echo $row["titre"]; ?></h3>
+                        <p class="profile-bio" style="word-wrap: break-word;text-align:justify"><?php echo $row["contenu"]; ?></p>
+						
+						<?php
+							}
+						?>
+
+					<!-- fin mot du doyen -->	
+						
+                         <ul class="social-list">
+                             <li> <a href="https://www.facebook.com/groups/302437857152045/?amp%3B_rdr&_rdc=2&_rdr"><i class="fa fa-facebook-official"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>

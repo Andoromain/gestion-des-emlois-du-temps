@@ -1,0 +1,59 @@
+b, strong {
+  display: inline-block;
+}
+
+#imageLogoFac {
+  width: 8%;
+  float: left;
+  position: absolute;
+  top: 151px;
+  margin-left: 3%;
+  border-radius: 50px;
+}
+
+#madag {
+  width: 60px;
+  margin-bottom: 0px;
+}
+
+#etroit {
+  margin-bottom: -3px;
+  font-family: serif;
+  letter-spacing: 2px;
+}
+
+#repoblika {
+  margin-bottom: 2px;
+  word-spacing: 2px;
+  letter-spacing: 4px;
+  font-weight: 800;
+}
+
+#fitiavana {
+  font-size: small;
+  margin-bottom: 29px;
+}
+
+.fac {
+  margin-top: -16px;
+  margin-bottom: -2px;
+}
+
+.aproposFac {
+  margin-top: -16px;
+  margin-bottom: 31px;
+}
+
+#facmedtitre {
+  font-family: initial;
+  font-weight: inherit;
+}
+
+p {
+  text-align: center;
+}
+
+#ET {
+  margin-top: 110px;
+}
+

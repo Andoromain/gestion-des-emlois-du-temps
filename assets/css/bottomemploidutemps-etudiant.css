@@ -1,0 +1,25 @@
+#EmploiduTempsEt p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#EmploiduTempsEt span {
+  font-weight: 300;
+}
+
+#EmploiduTempsEt #au {
+  font-weight: inherit;
+}
+
+#menelanelana {
+  background-color: #ececec;
+}
+
+p {
+  text-align: center;
+}
+
+#timetable {
+  margin: auto;
+}
+

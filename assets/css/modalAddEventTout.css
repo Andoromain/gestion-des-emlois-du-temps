@@ -1,0 +1,101 @@
+#modalAddEventTout {
+  margin: auto;
+}
+
+#modalUpdateEventTout {
+  margin: auto;
+}
+
+#modalAddEventTout p {
+  margin-bottom: 4px;
+}
+
+#modalUpdateEventTout p {
+  margin-bottom: 4px;
+}
+
+#modalAddEventTout #parcoursTout {
+  float: left;
+  width: 60%;
+  position:absolute;
+}
+
+#modalUpdateEventTout #parcoursTout {
+  float: left;
+  width: 60%;
+  position:absolute;
+}
+
+#modalAddEventTout #niveauTout {
+  width: 11%;
+  margin-left: 86%;
+}
+
+#modalUpdateEventTout #niveauTout {
+  width: 11%;
+  margin-left: 86%;
+}
+
+#modalAddEventTout #textNiveau {
+  margin-left: 69%;
+}
+
+#modalUpdateEventTout #textNiveau {
+  margin-left: 70%;
+}
+
+#modalAddEventTout #cancelSave {
+  margin-top: 3%;
+}
+
+#modalUpdateEventTout #cancelSave {
+  margin-top: 3%;
+}
+
+#modalAddEventTout #enregistrerTout {
+  float: right;
+}
+
+#modalUpdateEventTout #modifierTout {
+  float: right;
+}
+
+#modalAddEventTout .text {
+  font-weight: bold;
+}
+
+#modalUpdateEventTout .text {
+  font-weight: bold;
+}
+
+#modalAddEventTout .h4, h4 {
+  font-weight: bold;
+}
+
+#modalUpdateEventTout .h4, h4 {
+  font-weight: bold;
+}
+
+#modalAddEventTout .input {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#modalUpdateEventTout .input {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#modalUpdateEventTout #supprimerTout {
+  margin-left: 55%;
+  background-color: rgb(153,1,1);
+}
+
+#divaETSpan #parcoursSearch {
+  margin-right: 2%;
+}
+
+#divaETSpan #niveauSearch {
+  margin-right: 2%;
+}
+

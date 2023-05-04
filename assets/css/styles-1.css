@@ -1,0 +1,28 @@
+#calendar, #calendarEn {
+  width: 900px;
+  margin: auto;
+  z-index:20;
+  /*height: 88px;*/
+}
+
+#ETen {
+  margin-top: 130px;
+}
+
+.headingETen {
+  color: rgb(0,133,255);
+  text-decoration: underline;
+}
+
+#ETen #parcoursSearch {
+  margin-right: 2%;
+}
+
+#ETen #niveauSearch {
+  margin-right: 2%;
+}
+
+#genererPDFEn {
+  margin-left: 44%;
+}
+

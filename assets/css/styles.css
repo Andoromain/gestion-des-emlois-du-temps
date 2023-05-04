@@ -1,0 +1,32 @@
+#tableauEtudiant {
+  margin: 2% 5% 2% 10%;
+  width: 80%;
+}
+
+#save-sucess {
+  position: fixed;
+  z-index: 5;
+  float: left;
+  margin-left: 35%;
+  margin-right: 35%;
+  height: 50%;
+  width: 40%;
+}
+
+#dataRow {
+  min-height: 70px;
+}
+
+.col-md-12.search-table-col {
+  margin-top: 130px;
+}
+
+#tableau {
+  min-height: 500px;
+  max-height: 500px;
+}
+
+.table-responsive.table-bordered.table.table-hover.table-bordered.results {
+  height: 500px;
+}
+

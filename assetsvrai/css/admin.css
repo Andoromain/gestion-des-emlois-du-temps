@@ -1,0 +1,12 @@
+#modalParamAdmin span {
+  word-wrap: break-word;
+  text-align: center;
+  margin-left: 13px;
+  min-width: 106px;
+  max-width: 106px;
+}
+
+#modalParamAdmin #div {
+  margin: 0% 0% 4% 0%;
+}
+
